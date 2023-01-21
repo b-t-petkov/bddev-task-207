@@ -27,7 +27,6 @@ html {
 
 .card {
   border: 10px solid $grey-light;
-  width: 500px;
 }
 
 .card-header {
@@ -35,6 +34,7 @@ html {
   padding: 25px 5px 20px 25px;
 }
 
-.content {
+.card .content {
+  width: 500px;
   padding: 30px 25px;
 }
